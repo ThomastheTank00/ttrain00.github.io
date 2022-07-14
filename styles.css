@@ -8,11 +8,18 @@ body {
     text-align: center;
 }
 
+section {
+    padding: 100px 0;
+}
+
 .content-section {
-    background-color: gray;
-    color: white;
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
+}
+
+.content-section#skills {
+    background-color: blue;
+    color: white;
 }
 
 .content-section-heading h2 {
@@ -22,4 +29,19 @@ body {
 .intro-section-text {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.service-icon {
+    background-color: #fff;
+    color: #2988bc;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, 0.7);
 }
