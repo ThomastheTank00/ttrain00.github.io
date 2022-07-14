@@ -1,4 +1,14 @@
-body{
-    background-color: blue;
-    color: gold;
+body {
+    color: gray;
+    text-align: center;
+}
+
+.content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.intro-section-text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
