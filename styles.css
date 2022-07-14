@@ -1,14 +1,16 @@
 header {
+    color: gray;
     padding-bottom: 100px;
 
 }
 
 body {
-    color: gray;
     text-align: center;
 }
 
 .content-section {
+    background-color: gray;
+    color: white;
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
 }
