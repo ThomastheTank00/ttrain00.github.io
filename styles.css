@@ -1,3 +1,8 @@
+header {
+    padding-bottom: 100px;
+
+}
+
 body {
     color: gray;
     text-align: center;
@@ -6,6 +11,10 @@ body {
 .content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+    font-size: 3rem;
 }
 
 .intro-section-text {
