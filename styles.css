@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+p {
+    line-height: 1.6;
+}
+
 h1,
 h2,
 h3,
@@ -53,8 +57,14 @@ section {
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 } */
 
-.row{
+.row {
     margin-bottom: 48px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
 }
 
 .content-skills {
